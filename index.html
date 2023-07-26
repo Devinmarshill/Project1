@@ -2,13 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Project 1</title>
+    <title>Recycle Ways</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- <script src="./assets/js/script.js" >    
-</body>
+    <header>
+        <h1>RecycleWays</h1>
+        <nav>
+            <ul>
+                <li><a href="#index">Index</a></li>
+                <li><a href="#my-account">My Account</a></li>
+                <li><a href="#about-us">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <div class="logo">
+        <img src="./assets/images/recycle-20464.png" alt="Recycle Ways Logo">
+        <p>Find recycling centers near me</p>
+    </div>
+
+    <div class="form-container">
+        <form>
+            <div>
+                <label for="zipcode">Zip Code:</label>
+                <input type="text" id="zipcode" name="zipcode">
+            </div>
+            <div>
+                <label for="item">Find Item:</label>
+                <input type="text" id="item" name="item">
+            </div>
+            <input type="submit" value="Search">
+        </form>
+    </div>
+</body>
 </html>
