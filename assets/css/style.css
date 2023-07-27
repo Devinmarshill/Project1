@@ -19,7 +19,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: #13293d;
+    background-color: #ffffff;
     color: #fff;
 }
 
@@ -62,8 +62,14 @@ nav ul {
     color: #fff
 }
 
+
+
 p {
     align-items: center;
     color: green;
     font-size: 50;
+}
+
+.index {
+
 }
