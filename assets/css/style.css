@@ -1,1 +1,75 @@
 /* TESTING */
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+}
+
+header h1 {
+    width: 50%;
+    background: darkcyan;
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #ffffff;
+    color: #fff;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+nav {
+    display: flex;
+    background-color: #d8a47f;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.logo {
+    align-items: center;
+    padding-left: 40%;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+}
+
+.submit.search {
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff
+}
+
+
+
+p {
+    align-items: center;
+    color: green;
+    font-size: 50;
+}
+
+.index {
+
+}
