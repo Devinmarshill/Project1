@@ -13,17 +13,52 @@ header {
     background-color: green;
     color: #fff;
     text-align: center;
-    padding: 10px;
-
+    overflow: hidden;
 }
 
 header h1 {
-    width: 30%;
     background: green;
-    padding: 10px;
     font-size: 40px;
     color: white;
 }
+
+header a {
+    float: right;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 5px
+}
+
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+header a.title {
+    float: left;
+    background-color:green;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+header a:hover {
+    background-color: dodgerblue;
+    color: black;
+  }
+
+  header a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+header .icon {
+    display: none;
+  }
 
 nav ul {
     display: flex;
@@ -45,13 +80,13 @@ h1 {
 }
 
 .form-container {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 1%;
     padding-top: 1%;
-    background-color: green;
-    color: #fff;
+    background-color: white;
+    color: green;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .submit.search {
