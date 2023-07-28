@@ -1,0 +1,57 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    Padding: 0;
+}
+
+header{
+    background-color: #1E5631;
+    color: #FFF;
+    text-align: left;
+    padding:10px; 
+}
+
+nav {
+    float:right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+nav ul{
+    list-style: none;
+    padding:0;
+}
+nav ul li{
+    margin-bottom: 10px;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+     padding: 40%
+    padding-top: 5%;
+
+   
+}
+.form-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+form label{
+    margin-right: 10px;
+}
+form input [type="text"]{
+    padding: 5px;
+    margin-right: 10px;
+
+}
+
+form input[type="submit"]{
+    padding: 5px 15px;
+    background-color: #1e5631;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
